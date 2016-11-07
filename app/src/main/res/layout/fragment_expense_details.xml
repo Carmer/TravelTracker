@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andrewcarmer.traveltracker.ExpenseDetailsFragment"
+    android:background="#007877"
+    android:id="@+id/fragment_detials">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="49dp"
+            android:text="@string/details_button"
+            android:id="@+id/expense_details_button" />
+
+        <EditText
+            android:id="@+id/airfareAmountInput"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Amount: ex $10.09"
+            android:layout_below="@+id/expense_details_image"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="64dp" />
+
+    <ImageView
+        android:contentDescription="airplane image"
+        android:layout_width="75dp"
+        android:layout_height="121dp"
+        app:srcCompat="@mipmap/airfare"
+        android:id="@+id/expense_details_image"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:id="@+id/expense_details_label"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:id="@+id/status"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

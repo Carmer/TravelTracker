@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="options">["Option1", "Option2", "Option3", "Option4", "Option5"]</array>
+    <array name="suboptions">["SubOption1", "SubOption2", "SubOption3", "SubOption4", "SubOption5"]</array>
+</resources>

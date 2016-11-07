@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TravelTracker</string>
+    <string name="edit_message">Edit Message</string>
+    <string name="button_send">SEND</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="details_button">Validate Amount</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+
